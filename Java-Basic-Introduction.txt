@@ -1,0 +1,112 @@
+JAVA NOTES
+
+Basics of JAVA 
+
+* JAVA: 
+     - JAVA is a General Purpose Programming Language and Platform(Any hardware or software environment on which the program runs is called as platform. As Java has a JRE it is also known as platform.)
+	 - JAVA supports OOP's Object Oriented Programming language.
+	 - JAVA was Developed in Sun Micro System : USA : 1991.
+	 - James Gosling was the person who Developed the JAVA Language. 
+	 - JAVA was initally known as OAK.
+	 - JAVA is a high level, robust, object-oriented and secure programming language.
+	 - JAVA is a powerful language.
+
+* JAVA Version:
+     1996 - JDK 1.0
+	 1997 - JDK 1.1
+	 2000 - J2SE 1.2
+	 2004 - J2SE 1.5
+	 2014 - J2SE 1.8
+	 
+	 JAVA 1.8 is the stable version. As it is a Long Term Support version.
+	 
+	 
+	 
+* In JAVA we have different Editions:
+
+	1. J2SE - Java Standard Edition =  It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
+    
+	2. J2EE - Java Enterprise Edition = It is an enterprise platform that is mainly used to develop web and enterprise applications. It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.
+	
+	3. J2ME - Java Micro Edition = It is used to develop mobile applications.
+	
+	4. JavaFX - It is used to develop rich internet applications.
+	
+	
+* Java Applications that can be designed:
+
+	1. Desktop Application
+	2. Enterprise Application
+	3. Scientific Application
+	4. Web Application
+	5. Cloud based Application
+	6. Gaming Application
+	
+* Features of JAVA:
+
+    1. Simple: 
+	          Java is easy to learn as it's Syntax is simple, clean and easy to understand.
+			  Java has removed complex features such as explicity pointers, operator overloading etc.
+
+    2. Object Oriented Programming:
+			  OOP is considered as a design methodology for building non rigid software.
+			  OOP helps to break our problem into small unit.
+			  Everything in java is an object.
+			  But java is also not 100% OOP language as it has primitive data types.
+			  There are 6 main pillars of OOP:
+			  1. Class
+			  2. Object and methods
+			  3. Inheritance
+			  4. Polymorphism
+			  5. Abstraction
+			  6. Encapsulation
+			  
+	3. Platform Independent:
+	          JAVA is a WORA language. WRITE ONCE RUN ANYWHERE.
+			  When we compile the java code the .java file gets converted into .class file. 
+			  This .class file consists of the byte code which can be run on any machine or platform(Mac, Linux, Windows)
+			  This byte code is created by JVM.
+			  
+	4. Secure:
+	          With java we can develop Virusfree systems. Java is secure because:
+			  1. No explicit pointers
+			  2. ClassLoader
+			  3. ByteCode verifier
+			  4. Security Manager
+			  
+	5. Robust: 
+	         Java is Strong.
+			 It has a strong memory management.
+			 Java provides automatic automatic garbage collection which runs on java virtual machine. It deletes the objects which are not used by java program.
+			 Java also has Exception handling which avoid errors while developing application.
+			 
+    6. Portable:
+	         Java is portable because of the byte code. It can be compiled on one machine and can be run anywhere (on different platforms).
+			 
+    7. High Perfomance: 
+	         Java is a high performance language because of JIT - Just in time compiler.
+	
+	8. Distributed:
+	         Java is distributed because we can create distributed application. That means we can split a program into many parts and stores these on different computers.
+			 Programmer sitting on one machine can access program on another machine.
+			 
+	9. Multi-Threaded: 
+             Java supports multitasking.
+			 When one thread is executing another threads executes at the same time.
+			 eg(zoom video call application. While the call is going on we can chat, we can share screen that means different threads works simultaneously)
+			 Each threads do not occupy memory. It shares common memory area.
+			 
+	10. Dynamic: 
+	         It supports dynamic loading of classes. That means classes are loaded on demand. 
+	         
+			  
+* Compiler:
+            It converts source code in format that OS will understand and stores it in a file.
+
+* Interpreter: 
+            It reads each and every file, transfer and translate and gives it to OS which is time consuming. Line by Line reading of code.
+
+* Just-In-Time compiler:
+            When the .java file is compiled the .class is passed to the JVM. In JVM JIT compiler understands the byte code and coverts it into the machine understandable language to get the desired output on screen.
+
+			
