@@ -1,0 +1,94 @@
+* Relation between the source file name and class file name.
+	1. If source file name is different name and class name is different it will show the error class name not found.
+	2. When we use the public before class in this case the file name and class name should be same for compiling and executing the program.
+	3. We can create different class in the program but for different class different bytecode (class file is generated)
+	4. One source file can have only one public class.
+	
+* Why Java is platform independent?
+	1. The very unique feature of Java.
+	2. When java compiles source code  .class file is generated.
+	3. Class file contains bytecode.
+	4. Bytecode are interpreted only by JVM.
+	5. We can execute byte code on any platform.
+	6. This makes java platform independent. code => .java => .class(bytecode)
+	
+* What is byte code in JAVA?
+	After compiling source code file we get .class file. .class fole contains set of bytecode. These can be understand by JVM and converts to machine language.
+	
+* Java is Unicode based:
+	 1. Old languages are ascii cide based and allowed ascii code are 256.
+	 2. 8 bits are enough to represent so size of char in old language is 1 byte.
+	 3. In java unicode characters are 256 and less than 65536 and so we should go for 16 bits so size of char in java is 2 bytes.
+	 
+* Integral Literals
+	Integral data type byte, short, int, long.
+	
+	1. Decimal literals(base 10)
+		int x=10; 0 to 9
+		
+	2. Octal form (base 8)
+		int x = _010; Should be prefix with zero
+		o to 7
+	
+	3. Hexa decimal form (base 16)
+		int x = 0X10; 0 to 9 a to f
+		we can use both lower and upper case characters.
+		These are only possible way to specify literal values.
+		
+* Boolean data type
+	The only allowed values for boolean data type are true or false.
+	boolean b = true;
+	boolean b = 0; incompatible type found: int, required: boolean.
+	
+	boolean b = true;
+	boolean b = "true"; incompatible types
+	
+* Character data type
+	char ch = 'a';
+	we can specify char literal as single character with in single quotes ' '.
+	
+	char ch = a; cannot find symbol
+	char ch = "a"; incompatible types
+	char ch = 'ab'; unclosed char literal not a statement
+	
+	for literal character there is unicode value.
+	char literal as integral literals which represents unicode value of the character and under that integral literal can be specified in decimal, octal or hexadecimal forms.
+	But allowed range is 0 to 65535.
+	
+	char ch = OXface;
+	char ch = 0777;
+	char ch = 65535; found int required char
+	'/uxxx' 4 digit hexadecimal
+	
+	char ch = '/u0061'
+	
+	we can represent char literal in unicode representation which is nothing but '/uxxx'
+	
+* String literals
+	Any sequence of characters with in double quotes is treated as String literal.
+	eg. String s = "Shreyas";
+	
+* TYPE CONVERSION
+
+	TYPE CASTING
+	- conversion of one data type to another
+	- possible only in numeric data type
+	
+	byte => short(2b) + char(2b) => int(4b) => long(8b) => float(4b) => double(8b)
+	
+	widening type casting upcasting 
+	
+	8 byte long value we can assign to 4 byte float variable because both are following different memory representation internally.
+	
+	
+	byte <= short + char <= int <= long <= float <= double
+	
+	downcasting  narrow type casting(explicit - you have to do it)
+	
+* Why is JAVA language a strongly typed language?
+	- In java every variable and every expression has some type
+	- Each and every data type is clearly defined
+	- Every assignment should be checked by compiler for type compatability.
+	
+	Because of above reasons we can conclude java language is strongly typed programming langauge.
+	
